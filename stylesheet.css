@@ -1,0 +1,46 @@
+h1{
+    margin: auto;
+}
+form{
+    border: 1px solid;
+    margin: 45px auto;
+    width: 70%;
+    border: 1px solid;
+}
+form input[type="text"]{
+    color: black;
+    border-style: none;
+    font-size: 1.3em;
+}
+form input[type="text"]:focus{
+    outline: none;
+}
+form input[type="submit"]{
+    border-radius: 50%;
+    border-style: none;
+    width: 40px;
+    height: 40px;
+    color: lightblue;
+    font-size: 2em;
+    
+}
+
+form input[type="submit"]:hover{
+    cursor: pointer;
+    color: white;
+    background-color: lightblue;
+}
+.list-container{
+    width: 400px;
+    margin: 0 auto;
+}
+.task-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
