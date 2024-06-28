@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 h1{
     text-align: center;
     font-family: josefin sans;
@@ -30,6 +31,7 @@ form input[type="submit"]{
     background-color: lightblue;
     font-size: 1.6em;
     transition: .25s ease-in;
+    
 }
 
 form input[type="submit"]:hover{
@@ -69,4 +71,14 @@ form input[type="submit"]:hover{
 .list-container{
     margin-top: 2em;
     font-family: josefin sans;
+}
+.footer{
+    font-family: josefin sans;
+    text-align: center;
+    margin: auto;
+    font-size: 1.7em;
+}
+.alerta{
+    margin-top: 10%;
+    text-align: center;
 }

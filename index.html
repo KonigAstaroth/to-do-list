@@ -3,40 +3,64 @@
     <title>To-Do_list</title>
     <link rel="stylesheet" href="/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <html>
     <div>
-        <h1>Hagamos una nueva lista!</h1>
-    </div>
-    <body>
-        
-        <form action="#" id="userInput">
+        <div>
+            <h1>Hagamos una nueva lista!</h1>
+        </div>
+        <body>
             
-            <input type = "text" placeholder="Escribe algo">
-            <input type="submit" value="+" id="addBtn">
-            
-        </form>
-
-        <div id = "list" class="list-container">
-            
-            <!--
-            <div class="task-container" id="1">
-                <label>
-                    <input type="checkbox">
-                    Tarea 1
-                </label>
-                <img src="/bin.png" class="clBtn">
+            <form action="#" id="userInput">
+                
+                <input type = "text" placeholder="Escribe algo">
+                <input type="submit" value="+" id="addBtn">
+                
+            </form>
+    
+            <div id = "list" class="list-container">
+                
+                <!--
+                <div class="task-container" id="1">
+                    <label>
+                        <input type="checkbox">
+                        Tarea 1
+                    </label>
+                    <img src="/bin.png" class="clBtn">
+                </div>
+                -->
             </div>
-            -->
+    </div>
+   
+
+
+        <div class="footer">
+            <small class="text-muted">Aqui se veran reflejadas sus tareas:</small>
+            <div id="stats" class="stats">
+                <!--
+                 Tareas pendientes: 5 Completadas: 3
+                 --> 
+             </div>
         </div>
         
-        <div id="stats" class="stats">
-           <!--
-            Tareas pendientes: 5 Completadas: 3
-            --> 
+        <div class="alerta">
+            <div class="alert alert-primary alert-dissmisable">
+                Empieza escribiendo algo! Empieza con una lista de pendientes, del super, etc.
+                <button class="btn-close" 
+                aria-label = "close"
+                data-bs-dismiss="alert"
+                >
+                </button>
+            </div>
         </div>
+        
+     
+        
+        
         
         <script src="/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
     
 </html>
